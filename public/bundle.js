@@ -11322,7 +11322,7 @@ function booksReducers() {
     case "DELETE_BOOK":
       var currentBookToDelete = [].concat(_toConsumableArray(state.books));
       var indexToDelete = currentBookToDelete.findIndex(function (book) {
-        return book._id === action.payload._id;
+        return book._id == action.payload;
       });
       return {
         books: [].concat(_toConsumableArray(currentBookToDelete.slice(0, indexToDelete)), _toConsumableArray(currentBookToDelete.slice(indexToDelete + 1)))
@@ -43205,8 +43205,22 @@ var BooksForm = function (_React$Component) {
       this.props.postBooks(book);
     }
   }, {
+    key: 'onDelete',
+    value: function onDelete() {
+      var bookId = (0, _reactDom.findDOMNode)(this.refs.delete).value;
+      this.props.deleteBooks(bookId);
+    }
+  }, {
     key: 'render',
     value: function render() {
+      var booksList = this.props.books.map(function (booksArr) {
+        return _react2.default.createElement(
+          'option',
+          { key: booksArr._id },
+          booksArr._id
+        );
+      });
+
       return _react2.default.createElement(
         _reactBootstrap.Well,
         null,
@@ -43260,6 +43274,34 @@ var BooksForm = function (_React$Component) {
             { onClick: this.handlerSubmit.bind(this), bsStyle: 'primary' },
             'Save book'
           )
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.Panel,
+          { style: { marginTop: '25px' } },
+          _react2.default.createElement(
+            _reactBootstrap.FormGroup,
+            { controlId: 'formControlsSelect' },
+            _react2.default.createElement(
+              _reactBootstrap.ControlLabel,
+              null,
+              'Select a book id to delete'
+            ),
+            _react2.default.createElement(
+              _reactBootstrap.FormControl,
+              { ref: 'delete', componentClass: 'select', placeholder: 'select' },
+              _react2.default.createElement(
+                'option',
+                { value: 'select' },
+                'select'
+              ),
+              booksList
+            ),
+            _react2.default.createElement(
+              _reactBootstrap.Button,
+              { onClick: this.onDelete.bind(this), bsStyle: 'danger' },
+              'Delete'
+            )
+          )
         )
       );
     }
@@ -43268,12 +43310,19 @@ var BooksForm = function (_React$Component) {
   return BooksForm;
 }(_react2.default.Component);
 
+function mapStateToProps(state) {
+  return {
+    books: state.books.books
+  };
+}
+
 function mapDispatchToProps(dispatch) {
   return (0, _redux.bindActionCreators)({
-    postBooks: _booksActions.postBooks
+    postBooks: _booksActions.postBooks,
+    deleteBooks: _booksActions.deleteBooks
   }, dispatch);
 }
-exports.default = (0, _reactRedux.connect)(null, mapDispatchToProps)(BooksForm);
+exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(BooksForm);
 
 /***/ }),
 /* 485 */
