@@ -34,7 +34,7 @@ app.post('/cart', function(req, res){
   req.session.cart = cart;
   req.session.save(function(err){
     if(err){
-      throw err;
+      console.log('# API ERROR: '+err);
     }
     res.json(req.session.cart);
   })
@@ -55,7 +55,7 @@ app.post('/books', function(req, res){
 
   Books.create(book, function(err, books){
     if(err){
-      throw err;
+      console.log('# API ERROR: '+err);
     }
     res.json(books);
   })
@@ -66,7 +66,7 @@ app.post('/books', function(req, res){
   app.get('/books', function(req, res){
   Books.find(function(err, books){
     if(err){
-      throw err;
+      console.log('# API ERROR: '+err);
     }
     res.json(books);
   })
@@ -78,14 +78,30 @@ app.post('/books', function(req, res){
     var query = {_id: req.params._id}
   Books.remove(query, function(err, books){
     if(err){
-      throw err;
+      console.log('# API ERROR: '+err);
     }
     res.json(books);
   })
 });
 
+//---------->>> GET BOOKS IMAGES API <<<------------
+app.get('/images', function(req, res){
+  const imgFolder = __dirname + '/public/images/';
+  const fs = require('fs');
 
-
+  fs.readdir(imgFolder, function(err, files){
+    if (err) {
+      return console.log(err);
+    }
+    const filesArr = [];
+    var i = 1;
+    files.forEach(function(file){
+      filesArr.push({name: file});
+      i++
+    });
+    res.json(filesArr);
+  })
+})
 // END Apis
 
 app.listen(3001, function(err){

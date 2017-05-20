@@ -1,10 +1,23 @@
 import React from 'react';
-import {Row, Col, Well, Button} from 'react-bootstrap';
+import {Image, Row, Col, Well, Button} from 'react-bootstrap';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {addToCart, updateCart} from '../../actions/cartActions';
 
 class BookItem extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      isClicked: false,
+    };
+  }
+
+  onReadMode() {
+    this.setState({
+      isClicked: true,
+    });
+  }
+
   handlerCart() {
     const book = [
       ...this.props.cart,
@@ -12,6 +25,7 @@ class BookItem extends React.Component {
         _id: this.props._id,
         title: this.props.title,
         description: this.props.description,
+        images: this.props.images,
         price: this.props.price,
         quantity: 1
       }
@@ -35,9 +49,26 @@ class BookItem extends React.Component {
     return(
       <Well>
         <Row>
-          <Col>
+          <Col xs={12} sm={4}>
+            <Image src={this.props.images} responsive />
+          </Col>
+          <Col xs={6} sm={8}>
             <h6>{this.props.title}</h6>
-            <h6>{this.props.description}</h6>
+            <p>
+              {
+                (this.props.description.length > 50 && this.state.isClicked === false) ?
+                (this.props.description.substring(0, 50)) :
+                (this.props.description)
+              }
+              <Button className='link' onClick={this.onReadMode.bind(this)}>
+                {
+                  (this.state.isClicked === false && this.props.description !== null &&
+                   this.props.description.length > 50 ) ?
+                  ('...read more') :
+                  ('')
+                }
+              </Button>
+            </p>
             <h6>usd. {this.props.price}</h6>
             <Button onClick={this.handlerCart.bind(this)} bsStyle='primary'>Buy now</Button>
           </Col>

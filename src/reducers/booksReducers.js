@@ -13,10 +13,22 @@ export function booksReducers(state={books: []}, action) {
       break;
     case "POST_BOOK":
       return {
+        ...state,
         books: [
           ...state.books,
           ...action.payload,
         ],
+        msg: 'Saved! Click to continue',
+        style: 'success',
+        validation: 'success',
+      };
+      break;
+    case "POST_BOOK_REJECTED":
+      return {
+        ...state,
+        msg: 'Please, try again',
+        style: 'danger',
+        validation: 'error',
       };
       break;
     case "DELETE_BOOK":
@@ -51,6 +63,14 @@ export function booksReducers(state={books: []}, action) {
           ...currentBookToUpdate.slice(indexToUpdate + 1),
         ],
       };
+      break;
+    case "RESET_BUTTON":
+      return {
+        ...state,
+        msg: null,
+        style: 'primary',
+        validation: null,
+      }
       break;
   }
   return state
