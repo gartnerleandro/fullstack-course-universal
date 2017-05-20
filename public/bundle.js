@@ -23690,8 +23690,6 @@ var _reactDom = __webpack_require__(21);
 
 var _reactRedux = __webpack_require__(46);
 
-var _reactRouter = __webpack_require__(258);
-
 var _redux = __webpack_require__(40);
 
 var _reduxLogger = __webpack_require__(259);
@@ -23706,45 +23704,20 @@ var _index = __webpack_require__(257);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _cartActions = __webpack_require__(96);
+var _routes = __webpack_require__(571);
 
-var _booksActions = __webpack_require__(95);
-
-var _booksList = __webpack_require__(255);
-
-var _booksList2 = _interopRequireDefault(_booksList);
-
-var _cart = __webpack_require__(154);
-
-var _cart2 = _interopRequireDefault(_cart);
-
-var _booksForm = __webpack_require__(153);
-
-var _booksForm2 = _interopRequireDefault(_booksForm);
-
-var _main = __webpack_require__(256);
-
-var _main2 = _interopRequireDefault(_main);
+var _routes2 = _interopRequireDefault(_routes);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var middleware = (0, _redux.applyMiddleware)(_reduxThunk2.default, _reduxLogger2.default);
-var store = (0, _redux.createStore)(_index2.default, middleware);
+var initialState = window.INITIAL_STATE;
+var store = (0, _redux.createStore)(_index2.default, initialState, middleware);
 
 var Routes = _react2.default.createElement(
   _reactRedux.Provider,
   { store: store },
-  _react2.default.createElement(
-    _reactRouter.Router,
-    { history: _reactRouter.browserHistory },
-    _react2.default.createElement(
-      _reactRouter.Route,
-      { path: '/', component: _main2.default },
-      _react2.default.createElement(_reactRouter.IndexRoute, { component: _booksList2.default }),
-      _react2.default.createElement(_reactRouter.Route, { path: '/admin', component: _booksForm2.default }),
-      _react2.default.createElement(_reactRouter.Route, { path: '/cart', component: _cart2.default })
-    )
-  )
+  _routes2.default
 );
 
 (0, _reactDom.render)(Routes, document.getElementById('app'));
@@ -52343,6 +52316,59 @@ module.exports = function(module) {
 	return module;
 };
 
+
+/***/ }),
+/* 571 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(21);
+
+var _reactRouter = __webpack_require__(258);
+
+var _booksActions = __webpack_require__(95);
+
+var _booksList = __webpack_require__(255);
+
+var _booksList2 = _interopRequireDefault(_booksList);
+
+var _cart = __webpack_require__(154);
+
+var _cart2 = _interopRequireDefault(_cart);
+
+var _booksForm = __webpack_require__(153);
+
+var _booksForm2 = _interopRequireDefault(_booksForm);
+
+var _main = __webpack_require__(256);
+
+var _main2 = _interopRequireDefault(_main);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var routes = _react2.default.createElement(
+  _reactRouter.Router,
+  { history: _reactRouter.browserHistory },
+  _react2.default.createElement(
+    _reactRouter.Route,
+    { path: '/', component: _main2.default },
+    _react2.default.createElement(_reactRouter.IndexRoute, { component: _booksList2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/admin', component: _booksForm2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/cart', component: _cart2.default })
+  )
+);
+
+exports.default = routes;
 
 /***/ })
 /******/ ]);
