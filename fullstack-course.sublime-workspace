@@ -4,12 +4,120 @@
 		"selected_items":
 		[
 			[
-				"re",
-				"res"
+				"bo",
+				"booksList"
 			],
 			[
-				"di",
-				"div\tTag"
+				"sto",
+				"store〔variable〕"
+			],
+			[
+				"de",
+				"deleteBooks"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"cart",
+				"cartReducers"
+			],
+			[
+				"in",
+				"indexToUpdate"
+			],
+			[
+				"c",
+				"currentBookToUpdate"
+			],
+			[
+				"cu",
+				"currentBookToUpdate"
+			],
+			[
+				"s",
+				"state"
+			],
+			[
+				"con",
+				"const〔keyword〕"
+			],
+			[
+				"ql",
+				"ql-image"
+			],
+			[
+				"publication",
+				"publication_date"
+			],
+			[
+				"pu",
+				"publication"
+			],
+			[
+				"set",
+				"setState"
+			],
+			[
+				"p",
+				"props"
+			],
+			[
+				"st",
+				"state"
+			],
+			[
+				"get",
+				"getPublication"
+			],
+			[
+				"save",
+				"savePublication"
+			],
+			[
+				"sa",
+				"saveButtonDisabled"
+			],
+			[
+				"se",
+				"setState"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"publ",
+				"publicationDate"
+			],
+			[
+				"pub",
+				"publicationDate〔variable〕"
+			],
+			[
+				"pat",
+				"patchPublication〔variable〕"
+			],
+			[
+				"is",
+				"isRequired"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"on",
+				"onSaveCallback"
+			],
+			[
+				"cons",
+				"constants"
+			],
+			[
+				"sta",
+				"status"
 			],
 			[
 				"fa",
@@ -24,8 +132,8 @@
 				"urlInPublication"
 			],
 			[
-				"p",
-				"publication"
+				"di",
+				"div"
 			],
 			[
 				"te",
@@ -44,10 +152,6 @@
 				"UrlViewerPublicationCard"
 			],
 			[
-				"con",
-				"content"
-			],
-			[
 				"mar",
 				"margin-top"
 			],
@@ -60,10 +164,6 @@
 				"pos:r\tposition:relative"
 			],
 			[
-				"on",
-				"onClickOpenPopover"
-			],
-			[
 				"to",
 				"tooltip"
 			],
@@ -72,36 +172,16 @@
 				"max-width"
 			],
 			[
-				"e",
-				"event"
-			],
-			[
-				"s",
-				"span"
-			],
-			[
-				"cu",
-				"cur:p\tcursor:pointer"
+				"re",
+				"return"
 			],
 			[
 				"o",
 				"onClick"
 			],
 			[
-				"c",
-				"count"
-			],
-			[
 				"cou",
 				"counter〔variable〕"
-			],
-			[
-				"pro",
-				"props"
-			],
-			[
-				"is",
-				"isEmpty"
 			],
 			[
 				"pa",
@@ -152,10 +232,6 @@
 				"font-style"
 			],
 			[
-				"st",
-				"styles"
-			],
-			[
 				"fi",
 				"filter"
 			],
@@ -166,10 +242,6 @@
 			[
 				"filter",
 				"filterProfiles"
-			],
-			[
-				"fun",
-				"function〔keyword〕"
 			],
 			[
 				"profiles",
@@ -204,20 +276,12 @@
 				"componentWillUnmount"
 			],
 			[
-				"sta",
-				"state"
-			],
-			[
 				"l",
 				"loading"
 			],
 			[
 				"fe",
 				"fetchConnections"
-			],
-			[
-				"in",
-				"inherit"
 			],
 			[
 				"onC",
@@ -248,10 +312,6 @@
 				"union"
 			],
 			[
-				"pu",
-				"publicationsPage"
-			],
-			[
 				"check",
 				"checked"
 			],
@@ -262,10 +322,6 @@
 			[
 				"conne",
 				"connections"
-			],
-			[
-				"se",
-				"selectedProfiles"
 			],
 			[
 				"fet",
@@ -384,20 +440,8 @@
 				"URLS"
 			],
 			[
-				"get",
-				"getTotalChatrs"
-			],
-			[
 				"por",
 				"props"
-			],
-			[
-				"set",
-				"setUrl"
-			],
-			[
-				"publication",
-				"publicationEditor"
 			],
 			[
 				"topicC",
@@ -444,10 +488,6 @@
 				"onSelectTab"
 			],
 			[
-				"cons",
-				"console"
-			],
-			[
 				"onChange",
 				"onChangeStar"
 			],
@@ -468,52 +508,12 @@
 				"fetchTopic"
 			],
 			[
-				"publ",
-				"publishedPublications"
-			],
-			[
 				"type",
 				"types"
 			],
 			[
 				"FE",
 				"FETCH_TOPICS_TOPICSPAGE_SUCCESS"
-			],
-			[
-				"getS",
-				"getState"
-			],
-			[
-				"To",
-				"TopicsPageLayout"
-			],
-			[
-				"Ti",
-				"TopicsPageLayout"
-			],
-			[
-				"nu",
-				"numUrls"
-			],
-			[
-				"Num",
-				"NumUrls"
-			],
-			[
-				"conte",
-				"contentState"
-			],
-			[
-				"Co",
-				"CountUrl"
-			],
-			[
-				"onChan",
-				"onChangeUrlInPublication"
-			],
-			[
-				"Pub",
-				"Publication"
 			]
 		]
 	},
@@ -528,7 +528,7 @@
 	"command_palette":
 	{
 		"height": 357.0,
-		"last_filter": "prefe",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -604,7 +604,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 575.0
+		"width": 503.0
 	},
 	"console":
 	{
@@ -628,19 +628,41 @@
 	],
 	"file_history":
 	[
-		"/Users/leandrogartner/Documents/Programacion/asix-final-project/_config.yml",
-		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/reducers/index.js",
-		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/reducers/cartReducers.js",
-		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/reducers/booksReducers.js",
-		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/actions/cartActions.js",
-		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/actions/booksActions.js",
 		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/app.js",
-		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/package.json",
-		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/server.js",
-		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/webpack.config.js",
-		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/.gitignore",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/components/pages/booksList.js",
 		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/public/index.html",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/components/pages/cart.js",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/components/pages/booksForm.js",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/components/pages/bookItem.js",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/package.json",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/reducers/index.js",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/reducers/booksReducers.js",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/actions/booksActions.js",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/actions/cartActions.js",
+		"/Users/leandrogartner/Documents/Programacion/nodejs/fullstack-course/src/reducers/cartReducers.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationEditorLayout/RichTextEditor/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationEditorLayout/RichTextEditor/styles.scss",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ShareButton/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/publication-editor.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ConnectionAvatar/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/package.json",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/utils/constants/globals.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/TimePicker/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/DatePicker/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/SchedulePopover/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationCard/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationList/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/DashboardPageLayout/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/containers/DashboardPage.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/modal-actions.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/publications-actions.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/containers/PublicationsPage.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/contents-actions.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/topics-page.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/TopicsPageLayout/index.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/containers/TopicsPage.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/reducers/topics-page.js",
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/TopicsListTable/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationEditorLayout/UrlViewer/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationEditorLayout/UrlViewer/TextEditor/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationEditorLayout/UrlViewer/styles.scss",
@@ -649,7 +671,6 @@
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ProfileFilter/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/lang/translations/es.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/lang/translations/en.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationCard/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationCard/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationCard/UrlViewerPublicationCard/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationCard/UrlViewerPublicationCard/styles.scss",
@@ -660,7 +681,6 @@
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/MoreConnectionAvatarCounter/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ProfilesSummary/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/MoreConnectionAvatarCounter/styles.scss",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ConnectionAvatar/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ConnectionAvatar/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/TopicCreatorButton/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/TopicCreatorButton/index.js",
@@ -676,14 +696,12 @@
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/index.html",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ShareButton/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/SingleTopicPageLayout/Header/styles.scss",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/publication-editor.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/utils/helpers/GetTotalCharsTwitter.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ModalRoot/WordPressLoginModal/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ModalRoot/WordPressLoginModal/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationEditorLayout/WpTitleEditor/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/app.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationEditorLayout/PlainTextEditor/index.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/DashboardPageLayout/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/SingleTopicPageLayout/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/SingleTopicPageLayout/Header/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/node_modules/redux-persist/es/persistStore.js",
@@ -699,7 +717,6 @@
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/reducers/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/reducers/requests-reducer.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/reducers/request-reducer.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/contents-actions.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/dashboard-page.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/AppLayout/TopMenu/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/AppLayout/styles.scss",
@@ -715,7 +732,6 @@
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationsPageLayout/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ProfileFilterWrapper/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/containers/SingleTopicPage.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/containers/PublicationsPage.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationEditorLayout/PictureViewer/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/Spinner/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/PublicationEditorLayout/styles.scss",
@@ -726,8 +742,6 @@
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/RequestStatus/index.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/reducers/dashboard-page.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/reducers/settings-page.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/reducers/topics-page.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/topics-page.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/reducers/publications-reducer.js",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ModalRoot/SpinnerModal/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/ModalRoot/SpinnerModal/index.js",
@@ -741,21 +755,7 @@
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/LoginPage/LoginForm/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/LoginPage/styles.scss",
 		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/containers/SettingsPage.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/user-actions.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/containers/TopicsPage.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/TopicsPageLayout/index.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/TopicsPageLayout/styles.scss",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/SingleTopicPageLayout/styles.scss",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/AppLayout/MainMenu/index.js",
-		"/Users/leandrogartner/Documents/Programacion/Symfony/airbnb-clon/airbnbsf/validacion.sublime-workspace",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/channels-actions.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/LoginPage/LoadingScreen/index.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/publications-actions.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/TopicsListTable/index.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/components/DashboardPageLayout/styles.scss",
-		"/Users/leandrogartner/Documents/Programacion/iniciovue.html",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/topics-actions.js",
-		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/.eslintrc"
+		"/Users/leandrogartner/Documents/Programacion/Analitia/roipot-frontend/src/js/actions/user-actions.js"
 	],
 	"find":
 	{
@@ -776,7 +776,52 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"var",
+			"color:",
+			"color",
+			"\"",
+			"className",
+			"map",
+			"some(publication.status === constants.status.SCHEDULED.id)",
+			"constants.status",
+			"version",
+			"constructor(props) {",
+			"setPublication",
+			"this.setPublication({ publicationDate })",
+			"moment",
+			".clone",
+			"moment",
+			"setPublication",
+			"moment(",
+			"publication",
+			".clone()",
+			"this.props.publication.publicationDate",
+			"date",
+			"this",
+			"dispatch",
+			"setDate",
+			"setPublication",
+			"store.getState().publicationEditor.publicationDate",
+			"publication",
+			"setPublication",
+			"values",
+			"moment",
+			"reScheduleTarget",
+			"patchPublication",
+			"types",
+			"editPublication",
+			"editPublicationPopover",
+			"editPublication",
+			"patchPublication",
+			"setPublicationDatePopover",
+			"patchPublication",
+			"patchContent",
+			"setPublicationDate",
+			"content",
+			"savePublication",
+			"editApiPublication",
+			"savePublication",
+			"TOPICS",
+			"watch",
 			"some",
 			"filtrate",
 			"div",
@@ -858,52 +903,7 @@
 			"selectedProfiles",
 			"profiles",
 			"onHide",
-			"RESET_FILTER_PUBLICATIONS_PUBLICATIONSPAGE_REQUEST",
-			"selectedProfiles",
-			"profiles",
-			"filter",
-			"filterErrorPublications",
-			"RESET_FILTER_PUBLICATIONS_PUBLICATIONSPAGE_REQUEST",
-			"Profiles",
-			"profiles",
-			"PROFILES",
-			"profiles",
-			"PROFILES",
-			"profiles",
-			"this.props.url",
-			"createFromText",
-			"this.props.url",
-			"urlViewer",
-			"state",
-			"REQUEST",
-			"('Error with",
-			"('error with",
-			"error with",
-			"Suggestion",
-			"RequestStatus",
-			"RESET_FILTER_PUBLICATIONS_SINGLETOPICPAGE_REQUEST",
-			"request",
-			"-",
-			"topicsPage",
-			"REQUEST",
-			"SUCCESS",
-			"FAILURE",
-			"EMPTY",
-			"REQUEST",
-			"request",
-			"REQUEST",
-			"pull-",
-			"Body",
-			"global",
-			"hideModal",
-			"ClosePublicationEditorUnsaved",
-			"CLOSE_PUBLICATION_EDITOR",
-			"TopicSelectorModal",
-			"ShareButton",
-			"bind(",
-			"share",
-			"Loading",
-			"Suggestion"
+			"RESET_FILTER_PUBLICATIONS_PUBLICATIONSPAGE_REQUEST"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -985,6 +985,38 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"globals",
+				"src/js/utils/constants/globals.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"globa",
+				"src/js/utils/constants/globals.js"
+			],
+			[
+				"constgloba",
+				"src/js/utils/constants/globals.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"shedulepop",
+				"src/js/components/SchedulePopover/index.js"
+			],
+			[
+				"actpubed",
+				"src/js/actions/publication-editor.js"
+			],
+			[
+				"contaidah",
+				"src/js/containers/DashboardPage.js"
+			],
 			[
 				"es.js",
 				"src/js/lang/translations/es.js"
@@ -1224,7 +1256,7 @@
 		[
 			[
 				"",
-				"~/Documents/Programacion/Analitia/roipot-backend/roipot-backend.sublime-project"
+				"~/Documents/Programacion/asix-final-project/asix-final-project.sublime-workspace"
 			]
 		],
 		"width": 380.0
